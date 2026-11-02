@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F172A"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz kategorię w której chcesz się sprawdzić"
+        android:textColor="#94A3B8"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/anatomyButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🫀 Anatomia i fizjologia"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/biosignalsButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📈 Biosygnały"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#14B8A6"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/biomaterialsButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🦴 Biomateriały"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#BE606B"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/medicalequipButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🩺 Aparatura medyczna"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7871AD"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/allButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🎲 Wszystko"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#BDAEAC"/>
+
+</LinearLayout>
