@@ -11,13 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz">
-        <activity android:name=".ResultActivity"/>
-        <activity android:name=".QuizActivity"/>
-        <activity android:name=".InfoActivity"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".QuizInfoActivity"/>
+        <activity android:name=".ui.ResultActivity"/>
+        <activity android:name=".ui.QuizActivity"/>
+        <activity android:name=".ui.InfoActivity"/>
+        <activity android:name=".ui.MainActivity"/>
+        <activity android:name=".ui.QuizInfoActivity"/>
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".ui.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
